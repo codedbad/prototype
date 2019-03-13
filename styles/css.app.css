@@ -3,18 +3,17 @@
 
 body,
 html {
-    height: 100%;
+
     margin: 0;
-    padding: 0;
+
     background: #fff;
-    font-family: sans-serif;
 }
 
 .hero-image {
     position: relative;
     height: 600px;
     overflow: hidden;
-    background: url(../images/main.png) no-repeat center;
+    background: url(../images/4.png) no-repeat center;
     background-size: cover;
 }
 
@@ -75,15 +74,17 @@ html {
 .cb {
     font-family: "Montserrat", monospace;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 12px;
     color: #fff;
     background-color: #000;
     transform: rotateZ(90deg);
-    width: 95px;
+    width: 100px;
     position: fixed;
-    margin: 36px -40px;
+    padding: 0px 0px;
+    margin: 42px -43px;
     position: fixed;
     text-align: center;
+    z-index: 999;
 }
 
 /*.container h1 span::first-letter {
