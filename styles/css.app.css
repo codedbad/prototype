@@ -85,6 +85,6 @@ html {
     z-index: 999;
 }
 
-/*.container h1 span::first-letter {
-    color: #A60000;
-}*/
+.cb::first-letter {
+    color: #FF0000;
+}
