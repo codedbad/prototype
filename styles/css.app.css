@@ -84,7 +84,3 @@ html {
     text-align: center;
     z-index: 999;
 }
-
-.cb::first-letter {
-    color: #FF0000;
-}
